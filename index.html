@@ -4,16 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Website</title>
-  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  
 </head>
 <body>
   <header class="header">
-  <a href="#home" class="logo">
-      <img src="45-453785_vector-icon-of-male-software-developer-coding-on.png" alt="logo" style="width: 50px; height: 50px; border-radius: 50%;" />
+    <a href="#home" class="logo">
+      <img src="logo.png" alt="logo" style="width: 50px; height: 50px; border-radius: 50%;" />
     </a>
 
-    <i class="bx bx-menu" id="menu-icon"></i> 
+    <i class="bx bx-menu" id="menu-icon"></i>
 
     <nav class="navbar">
       <a href="#home">Home</a>
@@ -43,7 +46,7 @@
       </div>
 
       <div class="home-img">
-        <img src="photo-4.jpeg" alt="Rinsha Image" />
+        <img src="IMG_5462 (1).JPG" alt="Rinsha Image" />
       </div>
     </section>
 
@@ -51,7 +54,7 @@
         <br>
         <br>
         <div class="about-img">
-          <img src="WhatsApp Image 2025-07-22 at 12.07.27 AM.jpeg" alt="lap Image">
+          <img src="WhatsApp Image 2025-09-15 at 5.17.27 PM.jpeg" alt="lap Image">
         </div>
         <div class="paragraph">
       <h3>About <span>Me</span></h3>
@@ -84,75 +87,43 @@
         <h2>My <span>Skills</span></h2>
         <h4>Technical Skills</h4>
         <div class="skill-container">
-            <div class="box"><i class="fa-brands fa-html5">HTML5</i><span>
-               <div id ="elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.20 PM.jpeg" alt=""></li></div>
+            <div class="box"><i class="fa-brands fa-html5"></i><p>HTML5</p><span>
+               <!-- <div id ="elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.20 PM.jpeg" alt=""></li></div> -->
                 <p>I use HTML to structure web pages with elements like headings, paragraphs, links, and forms.</span></div>
-            <div class="box"><i class="fa-brands fa-css3-alt">CSS</i><br><span>
-               <div id = "elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.19 PM.jpeg" alt=""></li></div>
+            <div class="box"><i class="fa-brands fa-css3-alt"></i><p>CSS</p><br><span>
+               <!-- <div id = "elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.18 PM.jpeg" alt=""></li></div> -->
                 <p>I use CSS to style web pages by adding colors, layouts, fonts, and responsiveness.</span></div>
-            <div class="box"><i class="fa-brands fa-js">JavaScript</i><br><span>
-               <div id = "elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.21 PM (1).jpeg" alt=""></li></div>
+            <div class="box"><i class="fa-brands fa-js"></i><p>JavaScript</p><br><span>
+               <!-- <div id = "elements"><li><img src="WhatsApp Image 2025-08-01 at 10.22.21 PM (1).jpeg" alt=""></li></div> -->
                 <p>I use JavaScript to add interactivity to websites, like handling events and updating content dynamically.</span></div>
-            <div class="box"><i class="fa-solid fa-desktop">Responsive Design</i><br><span>
+            <div class="box"><i class="fa-solid fa-desktop"></i><p>Responsive Design</p><br><span>
                 <p>I’m learning to make websites that look good on all screen sizes using CSS media queries and flexible layouts.</span> </div>
-            <div class="box"><i class="fa-brands fa-github">Git Hub</i><br><span> 
+            <div class="box"><i class="fa-brands fa-github"></i><p>Git Hub</p><br><span> 
                 <p>I use GitHub to save and share my code, and to track changes in my projects with version control.</span></div>
         </div>
     </div>
-     
-      
-     
-    </div>
-  </section>
-  <section class="Contact" id="Contact">
-    <h2 class="heading">Contact</h2>
-
-    </div>
-    <!-- <div class="content">
-      <form action="">
-        <div class="input-group">
-         <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email">
-         </div> 
-         <div>
-          <input type="number" placeholder="Phone Number ">
-          <input type="text" placeholder="subject">
-         </div>
+   </section>
+    <section id="contact" class="contact">
+  <h2>Contact <span>Me</span></h2>
+  <div class="contact-container">
+    <form action="https://formsubmit.co/rinshaa279@gmail.com" method="post" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" r equired />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+<section id="footer-container">
+        <h3>Contact <span>Me</span></h3>
+        <div class="phone"><i class="fa-solid fa-phone"></i><p>+91 9961634340</p></div>
+       <div class="email"> <i class="fa-solid fa-paper-plane"></i><p>rinsha@gmail.com</p></div>
         </div>
-        <div class="input-group-2">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          <input type="submit" value="Send Message" class="btn">
-        </div>
-      </form>
-    </div> -->
-  <!-- </section>
-  <footer class="footer">
-      <div class="social-icons">
-          <a href="https://github.com/rinshafathima9961-commits/rinsha"><i class="bx bxl-github"></i></a>
-          <a href="https://www.instagram.com/rinshaa_ft/?hl=en"><i class="bx bxl-instagram-alt"></i></a>
-          <a href="https://www.linkedin.com/in/fathima-rinsha-ak-ba2b13373/"><i class="bx bxl-linkedin"></i></a>
-        </div>
-        <ul class="list">
-          <li>
-            <a href="#">FAQ</a>
-          </li>
-          <li>
-            <a href="#services"></a>
-          </li>
-          <li>
-            <a href="#about">About me</a>
-          </li>
-          <li>
-            <a href="#contact"></a>
-          </li>
-        </ul> 
-         <p class="copyright">
+    </section>
+    <p class="copyright">
           @ rinsha | All Rights Reserved
         </p>
-  </footer>  -->
-  
-
-  <script src="portfolio.js"></script>
+   
+ <script src="portfolio.js"></script>
 </body>
 </html>
